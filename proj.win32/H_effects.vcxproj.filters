@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\effectNodes">
+      <UniqueIdentifier>{0db09ab4-fb56-48a9-9d7c-c54888d29207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\effectNodes\shatter">
+      <UniqueIdentifier>{e25b8579-89b0-4cbf-a9e6-7535322772d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\effectNodes\common">
+      <UniqueIdentifier>{2ac01b54-d8f2-4f4d-bb3a-caa2aed4d38a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\effectNodes\2DSoftShadow">
+      <UniqueIdentifier>{7105d9ec-6d45-4ff3-a3e3-57fa167a942f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\effectNodes\colorAdjust">
+      <UniqueIdentifier>{f7bd3adf-1139-4c87-9f12-54986d8ac9d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\effectNodes\ghost-like">
+      <UniqueIdentifier>{b38087de-e8b2-4236-b642-b1870cbbd30f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\effectNodes\laser">
+      <UniqueIdentifier>{476a6e07-67b0-42be-b762-9e667ce47622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\effectNodes\lightningBolt">
+      <UniqueIdentifier>{969fc446-d0ff-4f44-bbe6-72f507dae785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\effectNodes\normalMapped">
+      <UniqueIdentifier>{a0e562b5-a4dd-4bca-af2e-c4a3367e7882}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\effectNodes\ripple">
+      <UniqueIdentifier>{a86f9c6c-54e3-414e-ae71-25f532a2f6bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\effectNodes\ripple_horizontal">
+      <UniqueIdentifier>{746cb96e-0284-4230-9234-15a3caf63e3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\effectNodes\tail">
+      <UniqueIdentifier>{04cc9950-be82-4652-bb1d-1262ed6f013a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\effectNodes\tinyWingsTerrain">
+      <UniqueIdentifier>{9fee25e5-3341-4538-b808-d508d10a6ddb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\effectNodes\break">
+      <UniqueIdentifier>{6aec1328-128a-4496-ab7e-91f61befc250}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\chooseLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\chooseScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\shatter\ensShatterNode.cpp">
+      <Filter>Classes\effectNodes\shatter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\shatter\layer_shatter.cpp">
+      <Filter>Classes\effectNodes\shatter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\shatter\scene_shatter.cpp">
+      <Filter>Classes\effectNodes\shatter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\common\ensDefine.cpp">
+      <Filter>Classes\effectNodes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\common\ensFunc.cpp">
+      <Filter>Classes\effectNodes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\common\ensGLProgramWithUnifos.cpp">
+      <Filter>Classes\effectNodes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\common\ensIndexVBO.cpp">
+      <Filter>Classes\effectNodes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\common\ensMath.cpp">
+      <Filter>Classes\effectNodes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\common\ensMesh.cpp">
+      <Filter>Classes\effectNodes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\common\ensSimpleClasses.cpp">
+      <Filter>Classes\effectNodes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\2DSoftShadow\ens2DSoftShadowNode.cpp">
+      <Filter>Classes\effectNodes\2DSoftShadow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\2DSoftShadow\layer_2DSoftShadow.cpp">
+      <Filter>Classes\effectNodes\2DSoftShadow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\2DSoftShadow\scene_2DSoftShadow.cpp">
+      <Filter>Classes\effectNodes\2DSoftShadow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\colorAdjust\ensColorAdjustNode.cpp">
+      <Filter>Classes\effectNodes\colorAdjust</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\colorAdjust\layer_colorAdjust.cpp">
+      <Filter>Classes\effectNodes\colorAdjust</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\colorAdjust\scene_colorAdjust.cpp">
+      <Filter>Classes\effectNodes\colorAdjust</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\ghost-like\ensGhostNode.cpp">
+      <Filter>Classes\effectNodes\ghost-like</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\ghost-like\layer_ghostlike.cpp">
+      <Filter>Classes\effectNodes\ghost-like</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\ghost-like\scene_ghostlike.cpp">
+      <Filter>Classes\effectNodes\ghost-like</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\laser\laserLayer.cpp">
+      <Filter>Classes\effectNodes\laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\laser\laserScene.cpp">
+      <Filter>Classes\effectNodes\laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\lightningBolt\ensLightningBoltNode.cpp">
+      <Filter>Classes\effectNodes\lightningBolt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\lightningBolt\layer_lightningBolt.cpp">
+      <Filter>Classes\effectNodes\lightningBolt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\lightningBolt\scene_lightningBolt.cpp">
+      <Filter>Classes\effectNodes\lightningBolt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\tinyWingsTerrain\ensTinyWingsTerrainNode.cpp">
+      <Filter>Classes\effectNodes\tinyWingsTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\tinyWingsTerrain\layer_tinyWingsTerrain.cpp">
+      <Filter>Classes\effectNodes\tinyWingsTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\tinyWingsTerrain\scene_tinyWingsTerrain.cpp">
+      <Filter>Classes\effectNodes\tinyWingsTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\tail\ensTailNode.cpp">
+      <Filter>Classes\effectNodes\tail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\tail\layer_tail.cpp">
+      <Filter>Classes\effectNodes\tail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\tail\scene_tail.cpp">
+      <Filter>Classes\effectNodes\tail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\ripple_horizontal\ensRipple_horizontalNode.cpp">
+      <Filter>Classes\effectNodes\ripple_horizontal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\ripple_horizontal\layer_ripple_horizontal.cpp">
+      <Filter>Classes\effectNodes\ripple_horizontal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\ripple_horizontal\scene_ripple_horizontal.cpp">
+      <Filter>Classes\effectNodes\ripple_horizontal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\ripple\ensRippleNode.cpp">
+      <Filter>Classes\effectNodes\ripple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\ripple\layer_ripple.cpp">
+      <Filter>Classes\effectNodes\ripple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\ripple\scene_ripple.cpp">
+      <Filter>Classes\effectNodes\ripple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\normalMapped\ensNormalMappedNode.cpp">
+      <Filter>Classes\effectNodes\normalMapped</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\normalMapped\layer_normalMapped.cpp">
+      <Filter>Classes\effectNodes\normalMapped</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\normalMapped\scene_normalMapped.cpp">
+      <Filter>Classes\effectNodes\normalMapped</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\break\ensBreakNode.cpp">
+      <Filter>Classes\effectNodes\break</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\break\layer_break.cpp">
+      <Filter>Classes\effectNodes\break</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\effectNodes\break\scene_break.cpp">
+      <Filter>Classes\effectNodes\break</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppMacros.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\chooseLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\chooseScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\shatter\ensShatterNode.h">
+      <Filter>Classes\effectNodes\shatter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\shatter\layer_shatter.h">
+      <Filter>Classes\effectNodes\shatter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\shatter\scene_shatter.h">
+      <Filter>Classes\effectNodes\shatter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\common\ensCommon.h">
+      <Filter>Classes\effectNodes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\common\ensDefine.h">
+      <Filter>Classes\effectNodes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\common\ensFunc.h">
+      <Filter>Classes\effectNodes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\common\ensGLProgramWithUnifos.h">
+      <Filter>Classes\effectNodes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\common\ensIndexVBO.h">
+      <Filter>Classes\effectNodes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\common\ensMath.h">
+      <Filter>Classes\effectNodes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\common\ensMesh.h">
+      <Filter>Classes\effectNodes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\common\ensSimpleClasses.h">
+      <Filter>Classes\effectNodes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\2DSoftShadow\ens2DSoftShadowNode.h">
+      <Filter>Classes\effectNodes\2DSoftShadow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\2DSoftShadow\layer_2DSoftShadow.h">
+      <Filter>Classes\effectNodes\2DSoftShadow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\2DSoftShadow\scene_2DSoftShadow.h">
+      <Filter>Classes\effectNodes\2DSoftShadow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\colorAdjust\ensColorAdjustNode.h">
+      <Filter>Classes\effectNodes\colorAdjust</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\colorAdjust\layer_colorAdjust.h">
+      <Filter>Classes\effectNodes\colorAdjust</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\colorAdjust\scene_colorAdjust.h">
+      <Filter>Classes\effectNodes\colorAdjust</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\ghost-like\ensGhostNode.h">
+      <Filter>Classes\effectNodes\ghost-like</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\ghost-like\layer_ghostlike.h">
+      <Filter>Classes\effectNodes\ghost-like</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\ghost-like\scene_ghostlike.h">
+      <Filter>Classes\effectNodes\ghost-like</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\laser\laserLayer.h">
+      <Filter>Classes\effectNodes\laser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\laser\laserScene.h">
+      <Filter>Classes\effectNodes\laser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\lightningBolt\ensLightningBoltNode.h">
+      <Filter>Classes\effectNodes\lightningBolt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\lightningBolt\layer_lightningBolt.h">
+      <Filter>Classes\effectNodes\lightningBolt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\lightningBolt\scene_lightningBolt.h">
+      <Filter>Classes\effectNodes\lightningBolt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\tinyWingsTerrain\ensTinyWingsTerrainNode.h">
+      <Filter>Classes\effectNodes\tinyWingsTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\tinyWingsTerrain\layer_tinyWingsTerrain.h">
+      <Filter>Classes\effectNodes\tinyWingsTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\tinyWingsTerrain\scene_tinyWingsTerrain.h">
+      <Filter>Classes\effectNodes\tinyWingsTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\tail\ensTailNode.h">
+      <Filter>Classes\effectNodes\tail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\tail\layer_tail.h">
+      <Filter>Classes\effectNodes\tail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\tail\scene_tail.h">
+      <Filter>Classes\effectNodes\tail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\ripple_horizontal\ensRipple_horizontalNode.h">
+      <Filter>Classes\effectNodes\ripple_horizontal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\ripple_horizontal\layer_ripple_horizontal.h">
+      <Filter>Classes\effectNodes\ripple_horizontal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\ripple_horizontal\scene_ripple_horizontal.h">
+      <Filter>Classes\effectNodes\ripple_horizontal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\ripple\ensRippleNode.h">
+      <Filter>Classes\effectNodes\ripple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\ripple\layer_ripple.h">
+      <Filter>Classes\effectNodes\ripple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\ripple\scene_ripple.h">
+      <Filter>Classes\effectNodes\ripple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\normalMapped\ensNormalMappedNode.h">
+      <Filter>Classes\effectNodes\normalMapped</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\normalMapped\layer_normalMapped.h">
+      <Filter>Classes\effectNodes\normalMapped</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\normalMapped\scene_normalMapped.h">
+      <Filter>Classes\effectNodes\normalMapped</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\break\ensBreakNode.h">
+      <Filter>Classes\effectNodes\break</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\break\layer_break.h">
+      <Filter>Classes\effectNodes\break</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\effectNodes\break\scene_break.h">
+      <Filter>Classes\effectNodes\break</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
